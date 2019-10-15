@@ -15,7 +15,7 @@ class Building {
     this.x = x;
     this.y = y;
     this.z = z;
-    //randomize the type of building
+    //randomize the type of building generated
     type = floor(random(0,4));
     chooseDimensions(type);
   }
