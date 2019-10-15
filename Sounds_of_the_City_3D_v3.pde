@@ -33,7 +33,7 @@ void setup() {
   policeSound = new SoundFile(this, "police_sound.mp3");
   ambientSound = new SoundFile(this, "ambient_sound.mp3");
   honk = new SoundFile(this, "honk.mp3");
-  honk.amp(0.5);
+  honk.amp(0.2);
   color0 = color(213,67,100);
   color1 = color(42,76,100);
   color2 = color(358,53,100);
